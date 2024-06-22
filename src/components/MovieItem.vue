@@ -34,7 +34,9 @@ export default {
     methods: {
         async openMovie() {
             console.log('movie id ', this.item.id)
+
             await this.onItemClick(this.item.id);
+			window.scrollTo(pageYOffset, 0)
         }
     }
 }

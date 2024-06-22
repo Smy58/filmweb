@@ -3,6 +3,11 @@
 </template>
 
 <style lang="scss">
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   background: linear-gradient(to left top, #000000, #121212, #1e1e1e, #2a2a2a, #363636, #413d47, #4f4356, #604864, #81416a, #a43261, #c11f48, #d11f1f);
   background-repeat: no-repeat;

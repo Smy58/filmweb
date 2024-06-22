@@ -3,11 +3,9 @@
         <div class="header__nav">
             <router-link to="/" class="header__link">Главная</router-link>
             <router-link to="/tv-list" class="header__link">ТВ-шоу</router-link>
-            <router-link to="/" class="header__link">Ссылка</router-link>
-            <router-link to="/" class="header__link">Ссылка</router-link>
         </div>
         <div class="header__langs">
-            <a href="" class="header__lang">RU</a>
+            
         </div>
     </header>
 </template>
